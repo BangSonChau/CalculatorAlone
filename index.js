@@ -565,6 +565,8 @@ function changColorWhite() {
   document.getElementById("minus-button").classList.remove("red");
   document.getElementById("plus-button").classList.remove("red");
   document.getElementById("equal-button").classList.remove("red");
+  selectFeature.classList.remove("selectFeature-red");
+  trashButton.classList.remove("trash-button-red");
 }
 
 async function getDataWhite() {
