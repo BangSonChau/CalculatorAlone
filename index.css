@@ -17,7 +17,7 @@ body {
   );
 }
 
-button:focus{
+button:focus {
   outline: none;
 }
 
@@ -65,6 +65,7 @@ header .changeColor {
   border: none;
   background-color: rgb(255, 255, 255, 0.3);
   cursor: pointer;
+  /* padding: 5px; */
 }
 
 li button {
@@ -352,12 +353,12 @@ main .number-button {
   padding-left: 0;
 }
 
-.list::-webkit-scrollbar{
+.list::-webkit-scrollbar {
   display: none;
 }
 
 .list .item {
-  background-color: rgb(255,255,255,0.2);
+  background-color: rgb(255, 255, 255, 0.2);
   padding: 1rem 0 1rem 1rem;
   border-radius: 20px;
   width: 100%;
@@ -365,7 +366,6 @@ main .number-button {
   font-size: 0.6rem;
   cursor: pointer;
 }
-
 
 .list .item:active {
   opacity: 0.5;
@@ -375,9 +375,6 @@ main .number-button {
 .item .result {
   font-size: 1rem;
 }
-
-
-
 
 /*-------------------------- return Calculator -------------------------------*/
 
@@ -401,7 +398,7 @@ header .returnCalculator {
 
 header .trash-button {
   font-size: 1.2rem;
-  color:#5db039;
+  color: #5db039;
   cursor: pointer;
   display: none;
 }
@@ -424,4 +421,16 @@ main .number-button .listHistory .list .item-red {
 
 .display {
   display: none;
+}
+
+@media (max-width: 362px) {
+  .container {
+    max-width: 320px;
+  }
+  .featuresChangeColor li button {
+    padding: 5px;
+  }
+  .column button {
+    font-size: 10px;
+  }
 }
