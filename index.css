@@ -423,7 +423,7 @@ main .number-button .listHistory .list .item-red {
   display: none;
 }
 
-@media (max-width: 362px) {
+@media (max-width: 576px) {
   .container {
     max-width: 320px;
   }
@@ -433,4 +433,9 @@ main .number-button .listHistory .list .item-red {
   .column button {
     font-size: 10px;
   }
+
+  main .displayResult {
+  margin-bottom: 3rem;
+  }
+
 }
