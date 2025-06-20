@@ -335,6 +335,7 @@ header .featureHistory .navHistory-red {
 main .number-button {
   display: flex;
   justify-content: space-between;
+  align-items: start;
 }
 
 .number-button .listHistory {
@@ -345,7 +346,7 @@ main .number-button {
 .listHistory .list {
   list-style: none;
   height: 100%;
-  max-height: 28rem;
+  max-height: 22rem;
   overflow-y: auto;
   display: flex;
   flex-direction: column;
